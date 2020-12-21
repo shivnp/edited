@@ -1,0 +1,20 @@
+<!-- screenshots -->
+  <section class="page-section" id="{{ site.data.sitetext.screenshots.section | default: "screenshots" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.screenshots.title | default: "Screenshots" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.screenshots.text | default: "" }}</h3>
+        </div>
+      </div>
+      <div class="row" {% if site.data.sitetext.screenshots.horizontal-scrolling == "yes" %} id="scrolling-screenshots" {% endif %}>
+	  {% for screenshot in site.data.sitetext.screenshots.list %}
+        <div class="col-md-3 col-sm-6">
+          <a href="{{ screenshot.url }}">
+            <img class="img-fluid d-block mx-auto" src="{{ screenshot.logo }}" alt="{{ screenshot.title }}" style="max-height: {{ site.data.sitetext.screenshots.max-height | default: "100px" }}">
+          </a>
+        </div>
+	  {% endfor %}
+      </div>
+    </div>
+  </section>

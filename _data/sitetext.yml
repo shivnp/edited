@@ -5,10 +5,10 @@ header:
     button: DOWNLOAD
     buttonlink: "https://naro.mcainternship.com/musick.apk"
 
-services:
+features:
     title: "Features"
 #    text: "Lorem ipsum"
-    section: services
+    section: features
     list:
       - title: "E-Commerce"
 #        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -16,7 +16,7 @@ services:
       - title: "Responsive Design"
 #        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 #        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "[Markdown]"
 #        desc: "Your description here, full **Markdown** support"
 #        icon: fab fa-markdown
 
@@ -24,20 +24,20 @@ portfolio:
     title: "Portfolio"
 #    text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
-    closebutton: "Close Project"
+#    closebutton: "Close Project"
     
 
 timeline:
     title: "Teachers" 
 #    text: "Lorem ipsum timeline"
-    section: timeline
+#    section: 
     # left is the default
-    #start_align: "left"
+    start_align: "left"
     events:
-      - title: "Devanand Pathak Ji"
-        year: "Violin"
+      - title: "Devanand Pathak Ji - Violin"
+#        year: " "
 #        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/1.jpg
 #        alt: 
 #      - title: "Teacher 2"
 #        year: "Tanpura"
@@ -58,24 +58,21 @@ timeline:
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
 
-clients:
-    section: clients
+screenshots:
+    title: "screenshots"
+    section: screenshots
     max-height: 400px
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "envato"
-        logo: assets/img/clients/login.jpg
+        logo: assets/img/screenshots/login.jpg
       - title: "designmodo"
-        logo: assets/img/clients/view-batch.jpg
+        logo: assets/img/screenshots/view-batch.jpg
       - title: "themeforest"
-        logo: assets/img/clients/view-screen-image.jpg
+        logo: assets/img/screenshots/view-screen-image.jpg
       - title: "Creative Market"
-        logo: assets/img/clients/view-single-screen.jpg
+        logo: assets/img/screenshots/view-single-screen.jpg
 #    
 team:
     title: "OUR AMAZING TEAM"
@@ -91,10 +88,6 @@ team:
       - name: "Shiv Narayan Pandey"
       - name: "Abhishek Rai"
       - name: "Suraj Jaiswal"
-screenshot:
-    title: "Screenshots"
-#    text: "Lorem ipsum or call 123456789"
-    section: screenshot
           
 contact:
     title: "Contact Us"
