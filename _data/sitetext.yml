@@ -1,7 +1,8 @@
 header:
-    title: SMART TUTOR FOR <br> INDIAN CLASSICAL MUSIC
-    text: This projectis supported by IMPRINT-2C grant from<br>SERB, Government of India
-          <br>Project no. IMP/2019/000443
+    title: SMART TUTOR FOR <br>
+           INDIAN CLASSICAL MUSIC
+    text: This project is supported by IMPRINT-2C grant from <br> SERB, Government of India
+          <br> Project no. IMP/2019/000443
     button: DOWNLOAD
     buttonlink: "https://naro.mcainternship.com/musick.apk"
 
@@ -10,103 +11,97 @@ features:
 #    text: "Lorem ipsum"
     section: features
     list:
-      - title: "E-Commerce"
-#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - desc: "Learn music remotely via a smart Android app."
+      - desc: "We are currently offering only Violin courses"
+        
 #        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+#      - title: "Responsive Design"
 #        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 #        icon: fas fa-laptop       
-      - title: "[Markdown]"
+#      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
 #        desc: "Your description here, full **Markdown** support"
 #        icon: fab fa-markdown
 
-portfolio:
-    title: "Portfolio"
+teachers:
+    title: "Teachers"
 #    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-#    closebutton: "Close Project"
+    section: teachers
+    teacher:
+        - name: Devanand Pathak Ji
+          role: Violin
     
 
-timeline:
-    title: "Teachers" 
+#timeline:
+#    title: "About" 
 #    text: "Lorem ipsum timeline"
-#    section: 
-    # left is the default
-    start_align: "left"
-    events:
-      - title: "Devanand Pathak Ji - Violin"
-#        year: " "
+#    section: timeline
+#    # left is the default
+#    #start_align: "left"
+#    events:
+#      - title: "Our Humble Beginnings"
+#        year: "2009-2011"
 #        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+#        image: assets/img/timeline/1.jpg
 #        alt: 
-#      - title: "Teacher 2"
-#        year: "Tanpura"
+#      - title: "An Agency is Born"
+#        year: "March 2011"
 #        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 #        image: assets/img/timeline/2.jpg
 #        alt: 
-#      - title: "Teacher 3"
-#        year: "Guitar"
+#      - title: "Jekyll Theme is created"
+#        year: "2019"
 #        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
 #        image: assets/img/timeline/3.jpg
 #        alt: image alt text
-#      - title: "Teacher 4"
-#        year: "Piano"
+#      - title: "Title"
+#        year: "2009-2011"
 #        desc: "Your description here, **Markdown** is fully supported."
 #        image: assets/img/timeline/4.jpg
 #        alt: 
-        # you can enforce the aligment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+#        # you can enforce the aligment
+#        align: right
+#    end: "Be Part <br> of Our <br> Story!"
 
-
-screenshots:
-    title: "screenshots"
-    section: screenshots
-    max-height: 400px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        logo: assets/img/screenshots/login.jpg
-      - title: "designmodo"
-        logo: assets/img/screenshots/view-batch.jpg
-      - title: "themeforest"
-        logo: assets/img/screenshots/view-screen-image.jpg
-      - title: "Creative Market"
-        logo: assets/img/screenshots/view-single-screen.jpg
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
 #    
 team:
-    title: "OUR AMAZING TEAM"
+    title: "OUR TEAM"
 #    text: "Lorem ipsum dolor sit amet consectetur."
 #    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-#    section: team
-    professor:
-      - head: "Dr. Vipul Arora"
-        role: "Assistant Professor<br>Department of Electrical Engineering<br>IIT Kanpur"
+    section: team
+    professor: 
+      - head: "Prof. Vipul Arora"
+        role: "Assistant Professor <br> Department of Electrical Engineering <br> IIT Kanpur"
+
     people:
-      - name: "Vishwajeet Choubey"
-      - name: "Prabal Pratap Singh"
+      - name: "Vishwajeet Choubey"      
+      - name: "Prabal Pratap Singh"      
       - name: "Shiv Narayan Pandey"
       - name: "Abhishek Rai"
       - name: "Suraj Jaiswal"
+
+
+download:
+    title: "Download From"
+    section: download
+        
           
 contact:
     title: "Contact Us"
 #    text: "Lorem ipsum or call 123456789"
     section: contact
     
+    
 footer:
     legal: "Privacy Policy"
-#    social:
-#      - url: https://twitter.com
-#        icon: "fab fa-twitter"  
-#      - url: https://facebook.com
-#        icon: "fab fa-facebook-f"
-#      - url: https://linkedin.com
-#        icon: "fab fa-linkedin-in"
-#      - url: https://github.com/raviriley/agency-jekyll-theme
-#        icon: "fab fa-github"
-#      - url: https://instagram.com
-#        icon: "fab fa-instagram"
+    social:
+
+      - url: https://github.com/vipular
+        icon: "fab fa-github"
+
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

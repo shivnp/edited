@@ -2,14 +2,18 @@ nav:
   - title: "Features"
     section: features
 
-  - title: "Portfolio"
-    section: portfolio
-    
   - title: "Teachers"
-    section: timeline
+    section: teachers
+    
+ # - title: "About"
+ #   section: timeline
 
   - title: "Team"
     section: team
+    
+  - title: "Download"
+    section: download
+    url: https://naro.mcainternship.com/musick.apk
 
   - title: "Contact"
     section: contact

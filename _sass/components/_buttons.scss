@@ -1,7 +1,7 @@
 // Button Styles
 .btn {
   @include heading-font;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-xl {
@@ -21,6 +21,6 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(31, 129, 241, 0.952) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
   }
 }

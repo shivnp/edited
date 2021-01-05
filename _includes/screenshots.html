@@ -7,6 +7,7 @@
           <h3 class="section-subheading text-muted">{{ site.data.sitetext.screenshots.text | default: "" }}</h3>
         </div>
       </div>
+      
       <div class="row" {% if site.data.sitetext.screenshots.horizontal-scrolling == "yes" %} id="scrolling-screenshots" {% endif %}>
 	  {% for screenshot in site.data.sitetext.screenshots.list %}
         <div class="col-md-3 col-sm-6">
